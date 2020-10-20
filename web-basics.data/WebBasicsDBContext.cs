@@ -23,5 +23,6 @@ namespace web_basics.data
         }
 
         public DbSet<Cat> Cats { get; set; }
+        public DbSet<Dog> Dogs { get; set; }
     }
 }
